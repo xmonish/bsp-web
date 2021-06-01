@@ -13,7 +13,11 @@ body {
     background: #fff;
 }
 
-i {
+::placeholder {
+    color: rgb(24, 65, 188);
+  }
+
+i{
 position: relative;
 float: right;
 top: -38px;
@@ -31,6 +35,12 @@ right: 5px;
 .input-field input[type=text]:focus,
 .input-field input[type=email]:focus,
 .input-field input[type=password]:focus {
-    border-bottom: 2px solid #e91e63;
+    border-bottom: 2px solid rgb(87, 170, 219);
     box-shadow: none;
 }
+
+/* @media only screen and (max-width: 500px){
+    main{
+      width: 50%;
+    } 
+  } */
